@@ -1,2 +1,11 @@
-# custom-hooks
-Repositorio con varios custom hooks de reacts para su rapida utilización
+# useForm hook
+
+Ejemplo de uso:
+```
+    const initialForm = {
+        name: '',
+        age: '',
+        email: '',
+    };
+    const [values, handleInputChange, reset] = useForm(initialForm); 
+``` 
